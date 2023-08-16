@@ -18,8 +18,8 @@ body {
 }
 
 .circle {
-  width: 150vh;
-  height: 150vh;
+  width: 200vh;
+  height: 200vh;
   position: absolute;
   display: flex;
   align-items: center;
@@ -28,6 +28,38 @@ body {
   border-radius: 50%;
   /* top: 20%; */
   top: 50%;
-  left: -75vh;
+  left: -100vh;
   transform: translate(0, -50%);
+}
+
+.stripe {
+  width: 80%;
+  height: 60px;
+  background-color: yellow;
+  position: absolute;
+  /* align-items: center; */
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%);
+  transform-origin: 0 50%;
+}
+
+.str1 {
+  transform: rotate(-20deg);
+}
+
+.str2 {
+  transform: rotate(-10deg);
+}
+
+.str3 {
+  /* transform: rotate(-20deg); */
+}
+
+.str4 {
+  transform: rotate(10deg);
+}
+
+.str5 {
+  transform: rotate(20deg);
 }
